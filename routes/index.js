@@ -40,6 +40,14 @@ router.get('/volunteer', function(req, res, next) {
   res.render('volunteer', {myName: "Volunteer", title:"Volunteer"});
 });
 
+router.get('/branding', function(req, res, next) {
+  res.render('branding', {myName: "Branding", title:"Branding"});
+});
+
+router.get('/styleGuide', function(req, res, next) {
+  res.render('styleGuide', {myName: "StyleGuide", title:"StyleGuide"});
+});
+
 
 
 

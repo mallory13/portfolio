@@ -1,12 +1,11 @@
 <%- include partials/header.ejs%>
-        <!-- Breadcrumbs -->
+    <!-- Breadcrumbs -->
     <ol class="breadcrumb">
         <li><a href="./index">Home</a></li>
-        <li><a href="./skills">Skills</a></li>
+        <li><a href="./styleGuide">Style Guide</a></li>
     </ol>
     
     <main class="container">
-        <p id="skills">Skills information here</p>
-
+        <p id="styleGuide">Style Guide information here</p>
 
 <%- include partials/footer.ejs%>

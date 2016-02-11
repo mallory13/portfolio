@@ -1,7 +1,7 @@
 "use strict";
 
 //global variables
-var missionStatement = "";
+//var missionStatement = "";
 //projects array
 var projects = "";
 var awards = "";
@@ -87,18 +87,18 @@ var contact = "";
     function goals() {
         
         console.log("inside goals function");
-        var contact;
-        contact = document.getElementById("goals");
-        contact.innerHTML = "Goals information here";
+        var goals;
+        goals = document.getElementById("goals");
+        goals.innerHTML = "Goals information here";
 
     }
     
     function projects() {
         
         console.log("inside projects function");
-        var contact;
-        contact = document.getElementById("projects");
-        contact.innerHTML = "Projects information here";
+        var projects;
+        projects = document.getElementById("projects");
+        projects.innerHTML = "Projects information here";
 
     }
     
@@ -107,7 +107,25 @@ var contact = "";
         console.log("inside contact function");
         var contact;
         contact = document.getElementById("contact");
-        contact.innerHTML = "My new paragraph data";
+        contact.innerHTML = "Contact information here";
+
+    }
+    
+    function branding() {
+        
+        console.log("inside contact function");
+        var branding;
+        branding = document.getElementById("branding");
+        branding.innerHTML = "Branding information here";
+
+    }
+    
+    function styleGuide() {
+        
+        console.log("inside styleGuide function");
+        var styleGuide;
+        styleGuide = document.getElementById("styleGuide");
+        styleGuide.innerHTML = "Style guide information here";
 
     }
     //declare anonymous function with named alias
@@ -131,6 +149,8 @@ volunteer();
 goals();
 projects();
 contact();
+branding();
+styleGuide();
 
 
 })();
