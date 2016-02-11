@@ -6,31 +6,43 @@ var router = express.Router();
 /* GET home page. */
 // router is express library for handling urls
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Lab 4' });
+  res.render('index', { title: 'Home' });
 });
 
 
 //load the about view and pass variable myName with a value
 //one json array to hold all the variables we want to pass back
-router.get('/mallory', function(req, res, next) {
-  res.render('mallory', {myName: "Mallory", title:"Mallory"});
+router.get('/awards', function(req, res, next) {
+  res.render('awards', {myName: "Awards", title:"Awards"});
 });
 
-router.get('/donald', function(req, res, next) {
-  res.render('donald', {myName: "Donald", title:"Donald"});
+router.get('/contact', function(req, res, next) {
+  res.render('contact', {myName: "Contact", title:"Contact"});
 });
 
-router.get('/patricia', function(req, res, next) {
-  res.render('patricia', {myName: "Patricia", title:"Patricia"});
+router.get('/education', function(req, res, next) {
+  res.render('education', {myName: "Education", title:"Education"});
 });
 
-router.get('/nicolette', function(req, res, next) {
-  res.render('nicolette', {myName: "Nicolette", title:"Nicolette"});
+router.get('/goals', function(req, res, next) {
+  res.render('goals', {myName: "Goals", title:"Goals"});
 });
 
-router.get('/miles', function(req, res, next) {
-  res.render('miles', {myName: "Miles", title:"Miles"});
+router.get('/projects', function(req, res, next) {
+  res.render('projects', {myName: "Projects", title:"Projects"});
 });
+
+router.get('/skills', function(req, res, next) {
+  res.render('skills', {myName: "Skills", title:"Skills"});
+});
+
+router.get('/volunteer', function(req, res, next) {
+  res.render('volunteer', {myName: "Volunteer", title:"Volunteer"});
+});
+
+
+
+
 
 
 
