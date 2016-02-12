@@ -6,6 +6,23 @@
     </ol>
     
     <main class="container">
-        <p id="contact">Contact information here</p>
+        <h2 id="contact">Contact Me</h2>
+        <form action="" method="post" enctype="multipart/form-data">
+         <fieldset>
+            <label for="name" id="firstNameLabel">First Name:</label>
+            <input type="text" id="firstName" name="first name" placeholder="Enter your first name" />
+            <br />
+            <label for="name" id="lastNameLabel">Last Name:</label>
+            <input type="text" id="lastName" name="last name" placeholder="Enter your last name" />
+            <br />
+            <label for="email" id="emailLabel">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" />
+            <br />
+            <label for="message" id="messageLabel">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter a message"></textarea>
+            <br />
+            <input type="submit" value="Submit" />
+         </fieldset>
+      </form>
 
 <%- include partials/footer.ejs%>

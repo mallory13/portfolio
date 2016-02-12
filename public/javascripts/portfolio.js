@@ -35,7 +35,7 @@ var contact = "";
         console.log("inside missionStatement function");
         var missionStatement;
         missionStatement = document.getElementById("missionStatement");
-        missionStatement.innerHTML = "Mission statement information here";
+        missionStatement.innerHTML = "Mission Statement:";
 
     }
     
@@ -44,7 +44,7 @@ var contact = "";
         console.log("inside awards function");
         var awards;
         awards = document.getElementById("awards");
-        awards.innerHTML = "Awards information here";
+        awards.innerHTML = "Awards:";
 
     }
     
@@ -61,8 +61,32 @@ var contact = "";
         
         console.log("inside skills function");
         var skills;
+        var skill1;
+        var skill2;
+        var skill3;
+        var skill4;
+        var skill5;
+        var skill6;
         skills = document.getElementById("skills");
-        skills.innerHTML = "Skills information here";
+        skills.innerHTML = "Skills:";
+        
+        skill1 = document.getElementById("skill1");
+        skill1.innerHTML = "Ability to work with others as a team player towards a common goal";
+        
+        skill2 = document.getElementById("skill2");
+        skill2.innerHTML = "Excellent written and verbal communication skills with an eye for detail";
+        
+        skill3 = document.getElementById("skill3");
+        skill3.innerHTML = "Positive and accommodating personality";
+        
+        skill4 = document.getElementById("skill4");
+        skill4.innerHTML = "Ambitious to take initiative and continue learning";
+        
+        skill5 = document.getElementById("skill5");
+        skill5.innerHTML = "Efficient at multi-tasking and problem solving";
+        
+        skill6 = document.getElementById("skill6");
+        skill6.innerHTML = "Experience in a leadership role as well as a mentorship program exercised in the workplace.";
 
     }
     
@@ -75,14 +99,7 @@ var contact = "";
 
     }
     
-    function work() {
-        
-        console.log("inside work function");
-        var work;
-        work = document.getElementById("work");
-        work.innerHTML = "My new paragraph data";
-
-    }
+   
     
     function goals() {
         
