@@ -83,8 +83,45 @@ var missionStatement = "";
         
         console.log("inside education function");
         var education;
+        var georgian;
+        var georgian1;
+        var georgian2;
+        var georgian3;
+        var georgian4;
+        var delta;
+        var delta1;
+        var ottawa;
+        var ottawa1;
+        
         education = document.getElementById("education");
-        education.innerHTML = "Education information here";
+        education.innerHTML = "Education:";
+        
+        georgian = document.getElementById("georgian");
+        georgian.innerHTML = "Georgian College:";
+        
+        georgian1 = document.getElementById("georgian1");
+        georgian1.innerHTML = "Interactive Web Design and Development - Current";
+        
+        georgian2 = document.getElementById("georgian2");
+        georgian2.innerHTML = "Computer Programmer - 2015";
+        
+        georgian3 = document.getElementById("georgian3");
+        georgian3.innerHTML = "Work Smart Certificate - 2013";
+        
+        georgian4 = document.getElementById("georgian4");
+        georgian4.innerHTML = "Bartending 101 - 2005";
+        
+        delta = document.getElementById("delta");
+        delta.innerHTML = "Delta Training Program:";
+        
+        delta1 = document.getElementById("delta1");
+        delta1.innerHTML = "Introduction to Management - 2009";
+        
+        ottawa = document.getElementById("ottawa");
+        ottawa.innerHTML = "University of Ottawa:";
+        
+        ottawa1 = document.getElementById("ottawa1");
+        ottawa1.innerHTML = "Journalism - 2006";
 
     }
     
@@ -122,6 +159,7 @@ var missionStatement = "";
 
     }
     
+    //needs to be completed
     function volunteer() {
         
         console.log("inside volunteer function");
@@ -183,10 +221,11 @@ var missionStatement = "";
         console.log("inside contact function");
         var contact;
         contact = document.getElementById("contact");
-        contact.innerHTML = "Contact information here";
+        contact.innerHTML = "Contact Me:";
 
     }
     
+    //needs to be completed
     function branding() {
         
         console.log("inside contact function");
@@ -196,6 +235,7 @@ var missionStatement = "";
 
     }
     
+    //needs to be completed
     function styleGuide() {
         
         console.log("inside styleGuide function");
