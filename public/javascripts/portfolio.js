@@ -43,7 +43,7 @@ var missionStatement = "";
         missionStatement.innerHTML = "Mission Statement:";
         
         missionParagraph = document.getElementById("missionParagraph");
-        missionParagraph.innerHTML = "My professional mission is to strive to be a life long learner and continually develop a variety of skills. I will seek and take advantage of opportunities to gain experience in the web development industry as well as confront and learn from every challenge presented in the process. I will continue to expand my portfolio while creating and maintaining positive personal and working relationships.";
+        missionParagraph.innerHTML = "I am currently a web accessibility consultant for the Ministry of Education. My professional mission is to strive to be a life long learner and continually develop a variety of skills. I will seek and take advantage of opportunities to gain experience in the web development industry as well as confront and learn from every challenge presented in the process. I will continue to expand my portfolio while creating and maintaining positive personal and working relationships.";
 
     }
     
@@ -78,6 +78,7 @@ var missionStatement = "";
 
     }
     
+    // education section
     function education() {
         
         console.log("inside education function");
@@ -131,22 +132,49 @@ var missionStatement = "";
     }
     
    
-    
+    // goals section
     function goals() {
         
         console.log("inside goals function");
         var goals;
+        var goal1;
+        var goal2;
+        var goal3;
+        
         goals = document.getElementById("goals");
-        goals.innerHTML = "Goals information here";
+        goals.innerHTML = "Goals:";
+        
+        goal1 = document.getElementById("goal1");
+        goal1.innerHTML = "Travel the world";
+        
+        goal2 = document.getElementById("goal2");
+        goal2.innerHTML = "Retire at age 40";
+        
+        goal3 = document.getElementById("goal3");
+        goal3.innerHTML = "Volunteer abroad";
 
     }
     
+    // projects section
     function projects() {
         
         console.log("inside projects function");
         var projects;
+        var aandcParagraph;
+        var albratrossParagraph;
+        var beautieLoungeParagraph;
+        
         projects = document.getElementById("projects");
-        projects.innerHTML = "Projects information here";
+        projects.innerHTML = "Recent Projects: ";
+        
+        aandcParagraph = document.getElementById("aandcParagraph");
+        aandcParagraph.innerHTML = "This is the federal website for Aboriginal and Northern Development Canada. I worked with a team of programmers to update the website to current HTML5 and ensure all content was compliant to the Web Content Accessibility Guidelines.";
+        
+        albratrossParagraph = document.getElementById("albratrossParagraph");
+        albratrossParagraph.innerHTML = "The Albatross Motel is located near the main end in Wasaga Beach. This is a small business wordpress website currently being customized.";
+        
+        beautieLoungeParagraph = document.getElementById("beautieLoungeParagraph");
+        beautieLoungeParagraph.innerHTML = "A small business wordpress website for a local self employed beauty consultant and make up artist.";
 
     }
     
