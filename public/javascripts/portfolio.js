@@ -11,6 +11,8 @@ var volunteer = "";
 var work = "";
 var goals = "";
 var contact = "";
+var missionParagraph = "";
+var missionStatement = "";
 
 
 
@@ -30,12 +32,18 @@ var contact = "";
 
     // }
     
+    
+    // mission statement section
     function missionStatement() {
         
         console.log("inside missionStatement function");
         var missionStatement;
+        var missionParagraph;
         missionStatement = document.getElementById("missionStatement");
         missionStatement.innerHTML = "Mission Statement:";
+        
+        missionParagraph = document.getElementById("missionParagraph");
+        missionParagraph.innerHTML = "My professional mission is to strive to be a life long learner and continually develop a variety of skills. I will seek and take advantage of opportunities to gain experience in the web development industry as well as confront and learn from every challenge presented in the process. I will continue to expand my portfolio while creating and maintaining positive personal and working relationships.";
 
     }
     
