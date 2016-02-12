@@ -39,12 +39,34 @@ var contact = "";
 
     }
     
+    
+    // accomplishments section
     function awards() {
         
         console.log("inside awards function");
         var awards;
+        var award1;
+        var award2;
+        var award3;
+        var award4;
+        var award5;
         awards = document.getElementById("awards");
-        awards.innerHTML = "Awards:";
+        awards.innerHTML = "Accomplishments:";
+        
+        award1 = document.getElementById("award1");
+        award1.innerHTML = "IBM’s Master the Mainframe Part 1 Winner";
+        
+        award2 = document.getElementById("award2");
+        award2.innerHTML = "Dean’s Council Computer Programmer Representative";
+        
+        award3 = document.getElementById("award3");
+        award3.innerHTML = "People’s Choice Award at the Georgian College Innovation Showcase";
+        
+        award4 = document.getElementById("award4");
+        award4.innerHTML = "IBM’s Choice Award at the Georgian College Innovation Showcase";
+        
+        award5 = document.getElementById("award5");
+        award5.innerHTML = "Dean’s List";
 
     }
     
@@ -57,6 +79,7 @@ var contact = "";
 
     }
     
+    // skills section
     function skills() {
         
         console.log("inside skills function");
