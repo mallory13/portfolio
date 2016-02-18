@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+
+<!--
+    Steele Portfolio
+    @author: Mallory Steele
+    Assignment 1
+    
+    -->
 <html>
   <head>
       <meta charset="UTF-8">
@@ -12,21 +19,39 @@
     <title><%= title %>Steele Portfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-default">
-    <ul class="nav navbar-nav">
-        <li><a href="/" title="Home">Home</a></li>
-        <li><a href="./projects" title="Projects">Projects</a></li>
-        <li><a href="./about" title="About">About</a>
-            <ul class="nav navbar-nav">
-                <li><a href="./skills" title="Skills">Skills</a></li>
-                <li><a href="./education" title="Education">Education</a></li>
-                <li><a href="./goals" title="Goals">Goals</a></li>
-                <li><a href="./awards" title="Awards">Accomplishments</a></li>
-                <!--<li><a href="./volunteer" title="Volunteer">Volunteer</a></li>-->
-            </ul></li>
-        <!--<li><a href="./styleGuide" title="Style Guide">Style Guide</a></li>
-        <li><a href="./branding" title="Branding Guidelines">Branding Guidelines</a></li>-->
-        <li><a href="./contact" title="Contact">Contact</a></li>
-        
-    </ul>
-  </nav>
+<nav class="navbar navbar-inverse" id="global-navigation">
+    
+  
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+        aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+        <!--<a
+        class="navbar-brand nav navbar-left" href="/index"><img src="images/logo2.png" alt="steele suites logo" height="100" width="100" /></i>
+            </a>-->
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar-inverse nav-pills">
+            <li><a href="/">Home</a></li>
+            <li><a href="./projects">Recent Projects</a></li>
+            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About Me<span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="./skills">Skills</a></li>
+                    <li><a href="./goals">Goals</a></li>
+                    <li class="active"><a href="./education">Education</a></li>
+                    <!--<li><a href="work.html">Work History</a></li>-->
+                    <li><a href="./awards">Accomplishments</a></li>
+                    <!--<li><a href="volunteer.html">Volunteer Work</a></li>-->
+                    <li role="separator" class="divider"></li>
+                    <li><a href="./branding">Branding Guidelines</a></li>
+                    <li><a href="./styleGuide">Style Guide</a></li>
+                </ul></li>
+        <li><a href="./contact">Contact Me</a></li>
+        <li role="separator" class="divider"></li>
+        </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+</div>
+<!-- /.container-fluid -->';
+</nav>

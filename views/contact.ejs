@@ -7,21 +7,31 @@
     
     <main class="container">
         <h2 id="contact">Contact Me</h2>
-        <form action="" method="post" enctype="multipart/form-data">
-         <fieldset>
-            <label for="name">First Name:</label>
-            <input type="text" id="firstName" name="first name" placeholder="Enter your first name" />
-            <br />
+        <form action="" method="post" enctype="multipart/form-data" >
+         <fieldset class="well well-large text-center">
+             <div class="input-group">
+            <label for="name" >First Name:</label>
+            <input type="text" class="form-control" id="firstName" name="first name" placeholder="Enter your first name" required />
+             </div>
+             
+             <div class="input-group">
             <label for="name">Last Name:</label>
-            <input type="text" id="lastName" name="last name" placeholder="Enter your last name" />
-            <br />
+            <input type="text" class="form-control" id="lastName" name="last name" placeholder="Enter your last name" required />
+            </div>
+            
+            <div class="input-group">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email address" />
-            <br />
+            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required />
+            </div>
+            
+            <div class="input-group">
             <label for="message">Message:</label>
-            <textarea id="message" name="message" placeholder="Enter a message"></textarea>
-            <br />
-            <input type="submit" value="Submit" />
+            <textarea id="message" class="form-control" name="message" placeholder="Enter a message"></textarea>
+            </div>
+            <p></p>
+            <div class="input-group">
+            <input type="submit" class="btn btn-info" value="Submit" />
+            </div>
          </fieldset>
       </form>
 

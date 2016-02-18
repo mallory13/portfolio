@@ -59,90 +59,13 @@ var missionStatement = "";
         var award4;
         var award5;
         awards = document.getElementById("awards");
-        awards.innerHTML = "Accomplishments:";
-        
-        award1 = document.getElementById("award1");
-        award1.innerHTML = "IBM’s Master the Mainframe Part 1 Winner";
-        
-        award2 = document.getElementById("award2");
-        award2.innerHTML = "Dean’s Council Computer Programmer Representative";
-        
-        award3 = document.getElementById("award3");
-        award3.innerHTML = "People’s Choice Award at the Georgian College Innovation Showcase";
-        
-        award4 = document.getElementById("award4");
-        award4.innerHTML = "IBM’s Choice Award at the Georgian College Innovation Showcase";
-        
-        award5 = document.getElementById("award5");
-        award5.innerHTML = "Dean’s List";
+        awards.innerHTML = 
 
     }
     
-    // education section
-    function education() {
-        
-        console.log("inside education function");
-        var education;
-        var georgian;
-        var georgian1;
-        var georgian2;
-        var georgian3;
-        var georgian4;
-        var delta;
-        var delta1;
-        var ottawa;
-        var ottawa1;
-        
-        education = document.getElementById("education");
-        education.innerHTML = "Education:";
-        
-        georgian = document.getElementById("georgian");
-        georgian.innerHTML = "Georgian College:";
-        
-        georgian1 = document.getElementById("georgian1");
-        georgian1.innerHTML = "Interactive Web Design and Development - Current";
-        
-        georgian2 = document.getElementById("georgian2");
-        georgian2.innerHTML = "Computer Programmer - 2015";
-        
-        georgian3 = document.getElementById("georgian3");
-        georgian3.innerHTML = "Work Smart Certificate - 2013";
-        
-        georgian4 = document.getElementById("georgian4");
-        georgian4.innerHTML = "Bartending 101 - 2005";
-        
-        delta = document.getElementById("delta");
-        delta.innerHTML = "Delta Training Program:";
-        
-        delta1 = document.getElementById("delta1");
-        delta1.innerHTML = "Introduction to Management - 2009";
-        
-        ottawa = document.getElementById("ottawa");
-        ottawa.innerHTML = "University of Ottawa:";
-        
-        ottawa1 = document.getElementById("ottawa1");
-        ottawa1.innerHTML = "Journalism - 2006";
-
+ 
     
-    //needs to be completed
-    function branding() {
-        
-        console.log("inside contact function");
-        var branding;
-        branding = document.getElementById("branding");
-        branding.innerHTML = "Branding information here";
 
-    }
-    
-    //needs to be completed
-    function styleGuide() {
-        
-        console.log("inside styleGuide function");
-        var styleGuide;
-        styleGuide = document.getElementById("styleGuide");
-        styleGuide.innerHTML = "Style guide information here";
-
-    }
     //declare anonymous function with named alias
     /*
     var replaceFirstParagraph = function(){
